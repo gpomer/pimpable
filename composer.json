@@ -24,7 +24,6 @@
     }
   ],
   "require": {
-    "jedrzej/sortable": "dev-sort-relations",
     "jedrzej/searchable": "0.0.*",
     "jedrzej/withable": "0.0.*"
   },
@@ -32,12 +31,6 @@
     "codeception/codeception": "2.0.*",
     "codeception/specify": "*"
   },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "https://github.com/gpomer/sortable.git"
-        }
-    ],
   "autoload": {
     "psr-4": {
       "Jedrzej\\": "src/Jedrzej/",
